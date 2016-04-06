@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	var number = parseInt(prompt("Enter a Value", "0"), 10);
-	if (number % 1 != 0) {
 	for (var i = 1; i <= number; i++) {
 		if (i % 15 === 0) {
 			$("#output").append('<li>fizzbuzz</li>');
